@@ -1,4 +1,4 @@
-class Ship {
+class Asteroid {
     constructor(x, y, speed) {
         this.x = x;
         this.y = y;
@@ -6,6 +6,9 @@ class Ship {
     }
     async draw() {
 
+    }
+    async game() {
+        
     }
     getx() {
         return this.x;

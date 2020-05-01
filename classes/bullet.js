@@ -1,4 +1,4 @@
-class Ship {
+class Bullet {
     constructor(x, y, speed) {
         this.x = x;
         this.y = y;
