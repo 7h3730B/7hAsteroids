@@ -7,7 +7,9 @@ class Asteroid {
     async draw() {
 
     }
-    async game() {}
+    async game() {
+        
+    }
     getx() {
         return this.x;
     }
