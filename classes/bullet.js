@@ -7,10 +7,4 @@ class Bullet {
     async draw() {
 
     }
-    getx() {
-        return this.x;
-    }
-    gety() {
-        return this.y;
-    }
 }

@@ -4,16 +4,11 @@ class Asteroid {
         this.y = y;
         this.speed = speed;
     }
-    async draw() {
+    async draw(ctx) {
 
     }
+
     async game() {
-        
-    }
-    getx() {
-        return this.x;
-    }
-    gety() {
-        return this.y;
+
     }
 }
