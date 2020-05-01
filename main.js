@@ -77,7 +77,6 @@ class Game {
             this.ship.thrust.x -= (0.7 * this.ship.thrust.x / this.fps);
             this.ship.thrust.y -= (0.7 * this.ship.thrust.y / this.fps);
         }
-
         this.ship.x += this.ship.thrust.x;
         this.ship.y += this.ship.thrust.y;
 
